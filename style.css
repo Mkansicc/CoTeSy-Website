@@ -238,8 +238,6 @@ h1{
 .small{ color: var(--muted); margin: 0; }
 .big{ font-size: 18px; font-weight: 800; margin: 10px 0 0; }
 
-.row-actions{ display:flex; gap: 10px; margin-top: 12px; flex-wrap:wrap; }
-
 .footer{
   margin-top: 22px;
   padding-top: 12px;
@@ -252,9 +250,7 @@ h1{
   gap: 8px;
 }
 
-/* =========================
-   Training Tabs (NEW)
-========================= */
+/* Tabs */
 .tabs{
   border: 1px solid var(--line);
   background: rgba(255,255,255,.04);
@@ -288,6 +284,15 @@ h1{
 
 .tab-panel{ display:none; }
 .tab-panel.show{ display:block; }
+
+/* Session price card */
+.price-card h3{ margin: 0 0 6px; }
+.price-amt{
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -.5px;
+}
 
 /* Responsive */
 @media (max-width: 920px){
